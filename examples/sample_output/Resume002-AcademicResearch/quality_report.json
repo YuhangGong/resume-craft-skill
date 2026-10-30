@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "manual_review": [
+    "Inspect preview.png for aesthetics, glyph shapes, crop, font fallback and reading order; heuristics are not exhaustive."
+  ],
+  "dom": {
+    "errors": [],
+    "warnings": [],
+    "expected_text": "示例候选人 DEMO\n软件质量与工程实践\ndemo@example.invalid\n教育经历\n计算机科学 本科 · 示例大学（虚构）\n2022-09 – 2026-06\n核心课程：计算机网络、软件工程、数据结构。\n科研经历\n教学科研训练 · 示例实验室（虚构） · 参与者\n2024-10 – 2025-02\n整理公开数据并复核实验记录；未发表论文。\n项目经历\n数据验证练习项目 · 开发成员\n2025-03 – 2025-06\n使用 Python 处理合成数据，编写 pytest 测试并记录边界情况。\n参与 C++ 模块调试与问题复现，使用 Git 记录修改。\n专业技能\n技术实践\nPython、C++、Git、Linux 基础；了解 TCP/IP，通过实验练习网络故障定位。\n校园经历\n校园技术分享 · 示例社团（虚构） · 组织成员\n2024-03 – 2024-06\n与同学协作准备技术分享材料，整理活动反馈。",
+    "geometry": {
+      "width": 793.6875,
+      "height": 1122.515625,
+      "content_bottom": 630.5625
+    },
+    "font_families": [
+      "\"Microsoft YaHei\", \"Noto Sans CJK SC\", \"PingFang SC\", Arial, sans-serif"
+    ],
+    "resolved_fonts": [
+      {
+        "familyName": "Microsoft YaHei",
+        "postScriptName": "MicrosoftYaHei-Bold",
+        "isCustomFont": false,
+        "glyphCount": 10
+      },
+      {
+        "familyName": "Microsoft YaHei",
+        "postScriptName": "MicrosoftYaHei-Bold",
+        "isCustomFont": false,
+        "glyphCount": 9
+      },
+      {
+        "familyName": "Microsoft YaHei",
+        "postScriptName": "MicrosoftYaHei",
+        "isCustomFont": false,
+        "glyphCount": 20
+      },
+      {
+        "familyName": "Microsoft YaHei",
+        "postScriptName": "MicrosoftYaHei-Bold",
+        "isCustomFont": false,
+        "glyphCount": 4
+      },
+      {
+        "familyName": "Microsoft YaHei",
+        "postScriptName": "MicrosoftYaHei-Bold",
+        "isCustomFont": false,
+        "glyphCount": 19
+      },
+      {
+        "familyName": "Microsoft YaHei",
+        "postScriptName": "MicrosoftYaHei",
+        "isCustomFont": false,
+        "glyphCount": 17
+      },
+      {
+        "familyName": "Microsoft YaHei",
+        "postScriptName": "MicrosoftYaHei",
+        "isCustomFont": false,
+        "glyphCount": 23
+      },
+      {
+        "familyName": "Microsoft YaHei",
+        "postScriptName": "MicrosoftYaHei-Bold",
+        "isCustomFont": false,
+        "glyphCount": 24
+      },
+      {
+        "familyName": "Microsoft YaHei",
+        "postScriptName": "MicrosoftYaHei",
+        "isCustomFont": false,
+        "glyphCount": 22
+      },
+      {
+        "familyName": "Microsoft YaHei",
+        "postScriptName": "MicrosoftYaHei-Bold",
+        "isCustomFont": false,
+        "glyphCount": 15
+      },
+      {
+        "familyName": "Microsoft YaHei",
+        "postScriptName": "MicrosoftYaHei",
+        "isCustomFont": false,
+        "glyphCount": 39
+      },
+      {
+        "familyName": "Microsoft YaHei",
+        "postScriptName": "MicrosoftYaHei",
+        "isCustomFont": false,
+        "glyphCount": 31
+      },
+      {
+        "familyName": "Microsoft YaHei",
+        "postScriptName": "MicrosoftYaHei",
+        "isCustomFont": false,
+        "glyphCount": 49
+      }
+    ]
+  },
+  "pdf": {
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "manual_review": [
+      "Inspect preview.png for aesthetics, glyph shapes, crop, font fallback and reading order; heuristics are not exhaustive."
+    ]
+  },
+  "attempts": 1,
+  "omitted_entry_ids": [],
+  "changes": [],
+  "truth": {
+    "errors": [],
+    "pending_confirmation": [],
+    "passed": true,
+    "scope": "source consistency only; user/Agent must review semantic changes, roles, statuses and team attribution"
+  },
+  "intake_warnings": []
+}

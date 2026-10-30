@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; font-src data:;">
+<title>示例候选人 DEMO</title><style>:root{--accent:#17334d}
+
+@page{size:A4;margin:0}*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#e9edf1;color:#1e293b;font-family:'Microsoft YaHei','Noto Sans CJK SC','PingFang SC','Arial',sans-serif;font-size:10.5pt;line-height:1.42}
+.page{width:210mm;min-height:297mm;height:297mm;padding:14mm 17mm;background:white;margin:0 auto}
+.header{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2px solid var(--accent);padding-bottom:4mm;margin-bottom:4mm;gap:5mm}
+.identity{flex:1;min-width:0}.name{margin:0 0 1mm;font-weight:700;line-height:1.2;color:var(--accent)}
+.target{font-weight:600;margin:0 0 1.5mm}.contact{font-size:9.5pt;margin:0;overflow-wrap:anywhere}
+.photo{object-fit:cover;object-position:center;flex-shrink:0;border-radius:1mm}
+section{margin:0 0 3.5mm}h2{font-size:11.5pt;line-height:1.3;color:var(--accent);border-bottom:1px solid #cbd5e1;margin:0 0 2mm;padding:0 0 1mm;break-after:avoid}
+article{margin:0 0 2.5mm;break-inside:avoid}.entry-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:3mm}
+h3{font-size:10.5pt;line-height:1.42;margin:0;flex:1;min-width:0;overflow-wrap:anywhere}
+.date{font-size:9pt;line-height:1.42;margin:0;flex-shrink:0;white-space:nowrap;color:#475569}
+ul{padding:0 0 0 4mm;margin:1mm 0 0}li{margin:0 0 .6mm;overflow-wrap:anywhere}
+.compact{font-size:10pt;line-height:1.35}.compact section{margin-bottom:2.5mm}.compact article{margin-bottom:1.6mm}.compact ul{margin-top:.6mm}.compact li{margin-bottom:.3mm}
+@media print{html,body{background:white}.page{margin:0}}
+</style>
+<style>.name{font-size:24pt}.photo{width:25mm;height:34.0mm}</style>
+</head><body class=""><main class="page">
+<header class="header "><div class="identity">
+<h1 class="name" data-check>示例候选人 DEMO</h1>
+<p class="target" data-check>软件质量与工程实践</p>
+<p class="contact" data-check>demo@example.invalid</p>
+</div></header>
+<section><h2 data-check>教育经历</h2>
+<article data-entry="edu-demo">
+<div class="entry-heading"><h3 data-check>计算机科学 本科 · 示例大学（虚构）</h3>
+<p class="date" data-check>2022-09 – 2026-06</p></div>
+<ul><li data-check>核心课程：计算机网络、软件工程、数据结构。</li></ul>
+</article></section><section><h2 data-check>科研经历</h2>
+<article data-entry="research-demo">
+<div class="entry-heading"><h3 data-check>教学科研训练 · 示例实验室（虚构） · 参与者</h3>
+<p class="date" data-check>2024-10 – 2025-02</p></div>
+<ul><li data-check>整理公开数据并复核实验记录；未发表论文。</li></ul>
+</article></section><section><h2 data-check>项目经历</h2>
+<article data-entry="project-demo">
+<div class="entry-heading"><h3 data-check>数据验证练习项目 · 开发成员</h3>
+<p class="date" data-check>2025-03 – 2025-06</p></div>
+<ul><li data-check>使用 Python 处理合成数据，编写 pytest 测试并记录边界情况。</li><li data-check>参与 C++ 模块调试与问题复现，使用 Git 记录修改。</li></ul>
+</article></section><section><h2 data-check>专业技能</h2>
+<article data-entry="skill-demo">
+<div class="entry-heading"><h3 data-check>技术实践</h3>
+</div>
+<ul><li data-check>Python、C++、Git、Linux 基础；了解 TCP/IP，通过实验练习网络故障定位。</li></ul>
+</article></section><section><h2 data-check>校园经历</h2>
+<article data-entry="campus-demo">
+<div class="entry-heading"><h3 data-check>校园技术分享 · 示例社团（虚构） · 组织成员</h3>
+<p class="date" data-check>2024-03 – 2024-06</p></div>
+<ul><li data-check>与同学协作准备技术分享材料，整理活动反馈。</li></ul>
+</article></section>
+</main></body></html>

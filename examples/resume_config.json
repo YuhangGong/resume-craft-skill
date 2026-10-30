@@ -1,0 +1,17 @@
+{
+  "template": "Resume001-MinimalBusiness",
+  "language": "zh",
+  "section_order": [
+    "education",
+    "projects",
+    "skills",
+    "research",
+    "campus_experience"
+  ],
+  "hidden_sections": [],
+  "max_entries": 20,
+  "photo_choice": "none",
+  "photo_width_mm": 25,
+  "name_size_pt": 24,
+  "max_repairs": 3
+}

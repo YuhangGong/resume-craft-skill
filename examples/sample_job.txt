@@ -1,0 +1,3 @@
+软件测试工程师（合成岗位）
+要求 Python、C++、pytest、调试与问题分析。
+优先：Selenium、Docker。

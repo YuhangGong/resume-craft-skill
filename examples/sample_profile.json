@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "demo-identity": "姓名：示例候选人 DEMO\n邮箱：demo@example.invalid\n求职意向：软件质量与工程实践",
+    "edu-demo": "计算机科学 本科\n示例大学（虚构）\n\n2022-09\n2026-06\n核心课程：计算机网络、软件工程、数据结构。",
+    "project-demo": "数据验证练习项目\n\n开发成员\n2025-03\n2025-06\n使用 Python 处理合成数据，编写 pytest 测试并记录边界情况。\n参与 C++ 模块调试与问题复现，使用 Git 记录修改。",
+    "research-demo": "教学科研训练\n示例实验室（虚构）\n参与者\n2024-10\n2025-02\n整理公开数据并复核实验记录；未发表论文。",
+    "skill-demo": "技术实践\n\n\n\n\nPython、C++、Git、Linux 基础；了解 TCP/IP，通过实验练习网络故障定位。",
+    "campus-demo": "校园技术分享\n示例社团（虚构）\n组织成员\n2024-03\n2024-06\n与同学协作准备技术分享材料，整理活动反馈。"
+  },
+  "personal_info": {
+    "name": {
+      "raw": "示例候选人 DEMO",
+      "text": "示例候选人 DEMO",
+      "source_id": "demo-identity",
+      "confirmed": false
+    },
+    "email": {
+      "raw": "demo@example.invalid",
+      "text": "demo@example.invalid",
+      "source_id": "demo-identity",
+      "confirmed": false
+    },
+    "target": {
+      "raw": "软件质量与工程实践",
+      "text": "软件质量与工程实践",
+      "source_id": "demo-identity",
+      "confirmed": false
+    }
+  },
+  "education": [
+    {
+      "id": "edu-demo",
+      "title": "计算机科学 本科",
+      "organization": "示例大学（虚构）",
+      "role": "",
+      "start": "2022-09",
+      "end": "2026-06",
+      "original": "计算机科学 本科\n示例大学（虚构）\n\n2022-09\n2026-06\n核心课程：计算机网络、软件工程、数据结构。",
+      "source_id": "edu-demo",
+      "bullets": [
+        {
+          "raw": "核心课程：计算机网络、软件工程、数据结构。",
+          "text": "核心课程：计算机网络、软件工程、数据结构。",
+          "source_id": "edu-demo",
+          "confirmed": false
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-demo",
+      "title": "数据验证练习项目",
+      "organization": "",
+      "role": "开发成员",
+      "start": "2025-03",
+      "end": "2025-06",
+      "original": "数据验证练习项目\n\n开发成员\n2025-03\n2025-06\n使用 Python 处理合成数据，编写 pytest 测试并记录边界情况。\n参与 C++ 模块调试与问题复现，使用 Git 记录修改。",
+      "source_id": "project-demo",
+      "bullets": [
+        {
+          "raw": "使用 Python 处理合成数据，编写 pytest 测试并记录边界情况。",
+          "text": "使用 Python 处理合成数据，编写 pytest 测试并记录边界情况。",
+          "source_id": "project-demo",
+          "confirmed": false
+        },
+        {
+          "raw": "参与 C++ 模块调试与问题复现，使用 Git 记录修改。",
+          "text": "参与 C++ 模块调试与问题复现，使用 Git 记录修改。",
+          "source_id": "project-demo",
+          "confirmed": false
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "research-demo",
+      "title": "教学科研训练",
+      "organization": "示例实验室（虚构）",
+      "role": "参与者",
+      "start": "2024-10",
+      "end": "2025-02",
+      "original": "教学科研训练\n示例实验室（虚构）\n参与者\n2024-10\n2025-02\n整理公开数据并复核实验记录；未发表论文。",
+      "source_id": "research-demo",
+      "bullets": [
+        {
+          "raw": "整理公开数据并复核实验记录；未发表论文。",
+          "text": "整理公开数据并复核实验记录；未发表论文。",
+          "source_id": "research-demo",
+          "confirmed": false
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-demo",
+      "title": "技术实践",
+      "organization": "",
+      "role": "",
+      "start": "",
+      "end": "",
+      "original": "技术实践\n\n\n\n\nPython、C++、Git、Linux 基础；了解 TCP/IP，通过实验练习网络故障定位。",
+      "source_id": "skill-demo",
+      "bullets": [
+        {
+          "raw": "Python、C++、Git、Linux 基础；了解 TCP/IP，通过实验练习网络故障定位。",
+          "text": "Python、C++、Git、Linux 基础；了解 TCP/IP，通过实验练习网络故障定位。",
+          "source_id": "skill-demo",
+          "confirmed": false
+        }
+      ]
+    }
+  ],
+  "campus_experience": [
+    {
+      "id": "campus-demo",
+      "title": "校园技术分享",
+      "organization": "示例社团（虚构）",
+      "role": "组织成员",
+      "start": "2024-03",
+      "end": "2024-06",
+      "original": "校园技术分享\n示例社团（虚构）\n组织成员\n2024-03\n2024-06\n与同学协作准备技术分享材料，整理活动反馈。",
+      "source_id": "campus-demo",
+      "bullets": [
+        {
+          "raw": "与同学协作准备技术分享材料，整理活动反馈。",
+          "text": "与同学协作准备技术分享材料，整理活动反馈。",
+          "source_id": "campus-demo",
+          "confirmed": false
+        }
+      ]
+    }
+  ]
+}
