@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resume-craft-skill"
+version = "0.1.0"
+description = "Local, evidence-grounded A4 resume rendering tools and portable Agent Skill"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["Jinja2>=3.1.6,<4", "pydantic>=2.10,<3", "playwright>=1.50,<2", "PyMuPDF>=1.25,<2", "python-docx>=1.1,<2", "Pillow>=11,<13"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "PyYAML>=6,<7"]
+
+[project.scripts]
+resume-craft = "resume_craft.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+resume_craft = ["assets/templates/**/*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = ["integration: launches local Chromium"]
